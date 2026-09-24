@@ -159,20 +159,7 @@ MongoDB via Mongoose
       ▼
 API Response
 ```
----
-⏰ Automated Cleanup
-The backend schedules a cleanup task every day at midnight using `node-cron`.
-```text
-Daily at 00:00
-      │
-      ▼
-Cleanup Service
-      │
-      ▼
-runCleanup()
-```
-This functionality is initialized when the backend server starts.
----
+
 🛡️ Security & Validation
 The backend includes several security-oriented mechanisms:
 Password hashing with `bcryptjs`
